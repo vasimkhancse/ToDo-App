@@ -1,0 +1,142 @@
+
+body{
+background-color: #1f1e1e;
+color: #ffffff;
+overflow: hidden;
+}
+h1{
+  text-align: center;
+}
+.todo_wrapper{
+  background: #353434;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px #272727;
+}
+
+.todo_input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #787878;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+.todo-input-item label{
+font-weight: bold;
+margin-bottom: 10px;
+}
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+  }
+  
+.todo-input-item input:focus{
+    outline: none;
+    outline: 2px solid rgb(0, 230, 122);
+    }
+.primary_btn{
+  font-weight: bold;
+  background-color: rgb(0, 230, 122);
+  color:white;
+  border: none;
+  padding: 10px;
+  margin-top: 32px;
+  width: 60px;
+  cursor: pointer;
+}
+.primary_btn:hover{
+background-color:rgb(14, 191, 108) ;
+}
+.secondary_btn{
+  font-weight: bold;
+  background-color: rgb(71, 71, 71);
+  color:white;
+  border: none;
+  padding: 10px;
+  margin-top: 25px;
+  width: fit-content;
+  cursor: pointer;
+}
+.active{
+  background-color:rgb(14, 191, 108) ;
+  }
+
+
+.btn-area{
+    margin-bottom: 15px;
+  }
+  .todo-list{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .todo-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #414040;
+    box-shadow:  0px 3px 5px gray;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  .todo-list-item h3{
+  font-size: 25px;
+  color:rgb(14, 191, 108);
+  margin:0;
+  font-weight: bold;
+
+  }
+  .todo-list-item p{
+    font-size: 14px;
+    color: #939191;
+    margin-top: 8px;
+  }
+  .icon{
+    font-size: 35px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .check_icon{
+    font-size: 35px;
+    cursor: pointer;
+    color:rgb(14, 191, 108);
+    margin-left: 10px;
+  }
+
+  .edit_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #414141;
+  }
+  .edit_wrapper input,.edit_wrapper textarea{
+    
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .edit_wrapper .primary_btn{
+    margin-left: auto;
+    margin-right: auto;
+
+    
+  }
